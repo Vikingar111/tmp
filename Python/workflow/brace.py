@@ -1,4 +1,4 @@
-brace = '()(((((()))))))()('
+brace = '())(()'
 count = 0
 lenght = len(brace)
 symbol = ""

@@ -1,9 +1,9 @@
 #https://server.179.ru/tasks/python/2014b1/16-lists3.html
 a = []
-k = 1 # просто начальное значение, может быть любым
+k = 1 # counter
 for row in range(3): # 3 строк
     a.append([]) # создаем пустую строку
-    for c in range(3): # в каждой строке - 3 элементов
+    for c in range(3):
         a[row].append(k) # добавляем очередной элемент в строку
         k += 1 # увеличиваем значение счетчика
 
